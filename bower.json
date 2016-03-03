@@ -1,0 +1,25 @@
+{
+  "name": "ripple-effect",
+  "description": "Simple Wave a.k.a Ripple effect for Skyload extension",
+  "main": "index.js",
+  "authors": [
+    "browserkit"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "wave",
+    "ripple"
+  ],
+  "homepage": "https://github.com/browserkit/ripple-effect",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
