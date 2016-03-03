@@ -4,7 +4,7 @@
     } else if (typeof module === 'object' && 'exports' in module) {
         module.exports = factory(root.jQuery);
     } else {
-        factory(this.jQuery);
+        factory(root.jQuery);
     }
 }(this, function($) {
     $.fn.ripple = function(selector, custom){
