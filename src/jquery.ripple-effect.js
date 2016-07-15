@@ -24,8 +24,14 @@
             $this = $(this);
 
             if($this.find(elem_selector).length == 0) {
+                var position = $this.css('position');
+
+                if(position != 'absolute') {
+                    position = 'relative';
+                }
+
                 $this.css({
-                    position : 'relative',
+                    position : position,
                     overflow : 'hidden'
                 });
 
